@@ -18,6 +18,9 @@
 
 * [HMTL5 Bad Code](https://github.com/AntBranch/BadCode/blob/master/h5-bad-code.md)    :作者[tobatha](https://github.com/tobatha) 已经认领，待开始
 
+* [C++ Bad Code](https://github.com/AntBranch/BadCode/blob/master/cpp-bad-code.md)    :作者[chenyuxiaodhr](https://github.com/chenyuxiaodhr) 已经认领，待开始
+
+
 
 ### Contributing
 现在有一份ObjC，希望能够有人写其他语言的 ，主要是java和python，javascript   希望有人认领这三份，当然也希望更多的语言。
