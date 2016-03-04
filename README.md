@@ -26,8 +26,8 @@
 文章版权采用[CC Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/) 中文：[署名-非商业性使用协议](http://creativecommons.org/licenses/by-nc/3.0/cn/
 ).
 
-awesome-github 是[coderyi](https://github.com/coderyi)创建的，现在由他和AntBranch组织维护,也欢迎每一个人加入进来. 
+BadCode 是[Liqiankun](https://github.com/Liqiankun)创建的，现在由他和AntBranch组织维护,也欢迎每一个人加入进来. 
 
-谢谢所有的[贡献者](https://github.com/AntBranch/awesome-github/graphs/contributors).
+谢谢所有的[贡献者](https://github.com/AntBranch/BadCode/graphs/contributors).
 
-copyright (c) 2016 coderyi.all rights reserved.
+copyright (c) 2016 AntBranch.all rights reserved.
