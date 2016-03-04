@@ -6,9 +6,13 @@
 
 * [Objective Bad Code : 我从烂代码中学会了什么](https://github.com/AntBranch/BadCode/blob/master/objc-bad-code.md)    : 作者 [Liqiankun](https://github.com/Liqiankun)，文章简述了Objective-C的一些烂代码，内容包括不要再面向字典开发了，谁的工作谁干，第三方库入侵太深，用原生控件，主色调。
 
-* [swift-bad-code](https://github.com/AntBranch/BadCode/blob/master/swift-bad-code.md)    :作者[SemperIdem](https://github.com/SemperIdem) 已经认领，待开始
-
-
+* [swift bad code](https://github.com/AntBranch/BadCode/blob/master/swift-bad-code.md)    :作者[SemperIdem](https://github.com/SemperIdem) 已经认领，待开始
+ 
+* [javascript bad code](https://github.com/AntBranch/BadCode/blob/master/javascript-bad-code.md)    :作者[XadillaX](https://github.com/XadillaX) 已经认领，待开始
+ 
+* [android bad code](https://github.com/AntBranch/BadCode/blob/master/android-bad-code.md)    :作者[andyiac](https://github.com/andyiac) 已经认领，待开始
+ 
+* [python bad code](https://github.com/AntBranch/BadCode/blob/master/python-bad-code.md)    :作者[Hellogz](https://github.com/Hellogz) 已经认领，待开始
 
 ### Contributing
 现在有一份ObjC，希望能够有人写其他语言的 ，主要是java和python，javascript   希望有人认领这三份，当然也希望更多的语言。
