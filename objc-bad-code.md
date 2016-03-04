@@ -21,7 +21,7 @@
             NSDictionary *owner = [_idea objectForKey:@"owner"];
             NSURL *coverUrl = [NSURL URLWithString:[_idea valueForKey:@"medium_cover_url"]];
 ```
-面向字典开始真的很痛苦，面试模型开发吧。提高代码的可读性和易维护性。在字典转模型的时可以使用明杰老师的[MJExtension](https://github.com/CoderMJLee/MJExtension)会大大加快效率。
+面向字典开始真的很痛苦，面向模型开发吧。提高代码的可读性和易维护性。在字典转模型的时可以使用明杰老师的[MJExtension](https://github.com/CoderMJLee/MJExtension)会大大加快效率。
 
 ### 谁的工作谁干
 不要有一万行代码都写在ViewController里，谁的工作谁干。搞个MVC。
@@ -194,7 +194,7 @@ interface DemoDataSource : NSObject<UITableViewDataSource>
 封装之后使用，如果AFNetworking更新了你就改此处即可。
 
 ### 用原生控件
-如果没有特殊需求，尽量用苹果提高的原生控件。有个哥们的TabBarViewController不知道为啥要用。
+如果没有特殊需求，尽量用苹果提供的原生控件。有个哥们的TabBarViewController不知道为啥要用。
 ```OC
    @interface RDVTabBarController : UIViewController <RDVTabBarDelegate>
 ```
@@ -212,7 +212,7 @@ interface DemoDataSource : NSObject<UITableViewDataSource>
    titleLabel.backgroundColor = DLBackgroundColor;
 ```
 
-当然项目如果庞大 用宏可能会增加编译时间 ，其实可以 写出uicolor的category，需要的时候使用就更加方便了。
+当然项目如果庞大 用宏可能会增加编译时间 ，其实可以 写出UIColor的category，需要的时候使用就更加方便了。
 <pre>
 @implementation UIColor (ThemeColors)
 
