@@ -20,6 +20,11 @@
 
 * [C++ Bad Code](https://github.com/AntBranch/BadCode/blob/master/cpp-bad-code.md)    :作者[chenyuxiaodhr](https://github.com/chenyuxiaodhr) 已经认领，待开始
 
+* [Go Bad Code](https://github.com/AntBranch/BadCode/blob/master/go-bad-code.md)    :作者[nexzhu](https://github.com/nexzhu) 已经认领，待开始
+
+* [Node.js Bad Code](https://github.com/AntBranch/BadCode/blob/master/node-bad-code.md)    :作者[alvinz](https://github.com/alvinz) 已经认领，待开始
+
+
 
 
 ### Contributing
