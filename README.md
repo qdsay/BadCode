@@ -141,6 +141,34 @@
 ```
 ViewController你把Model给我，剩下的事情和你没关系。
 
+MVC其实是iOS开发中最基本的模式，关于ViewController里面的tableview除了像上面这样做，其实还可以把tableview的datasource和delegate拆离出来，在MVC上加一层TableviewProtocol层。
+
+使用如下：
+<pre>
+	ViewController.m
+
+    demoTableView=[[UITableView alloc] initWithFrame:CGRectMake(70, 0,ScreenWidth-70 , ScreenHeight-64-48) style:UITableViewStylePlain];
+    [self.view addSubview:demoTableView];
+    demoTableView.rowHeight=90;
+    demoDataSource=[[DemoDataSource alloc] init];
+    demoDataSource.listData=@[@"23",@"23"];
+    demoTableView.dataSource=demoDataSource;
+    
+    demoDelegate=[[DemoDelegate alloc] init];
+    demoTableView.delegate=demoDelegate;
+
+</pre>
+
+<pre>
+DemoDataSource.h
+
+interface DemoDataSource : NSObject<UITableViewDataSource>
+@property(nonatomic,strong)NSArray *listData;// datasource
+
+@end
+
+</pre>
+
 ### 第三方库入侵太深
 我举一个例子AFNetworking，这个可能是每一个开发者网络请求的标配，机会每一个页面都要用到。这样就造成了AFNetworking入侵太深，最近AFNetworking升级到了3.0，很多类改了方法也改了，你一看自己的项目300个地方用到了AFNetworking怎么办。全局替换？？像这样的库最好进行二次封装。
 ```OC
