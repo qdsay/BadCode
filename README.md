@@ -181,3 +181,24 @@ ViewController你把Model给我，剩下的事情和你没关系。
    titleLabel.backgroundColor = DLBackgroundColor;
 ```
 
+当然项目如果庞大 用宏可能会增加编译时间 ，其实可以 写出uicolor的category，需要的时候使用就更加方便了。
+<pre>
+@implementation UIColor (ThemeColors)
+
++ (instancetype)kColorWhite
+{
+    return [UIColor whiteColor];
+}
+
++ (instancetype)kColorBlue
+{
+    return [UIColor blueColor];
+}
+
+</pre>
+ 
+ 
+
+
+
+
