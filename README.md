@@ -24,6 +24,7 @@
 
 * [Node.js Bad Code](https://github.com/AntBranch/BadCode/blob/master/node-bad-code.md)    :作者[alvinz](https://github.com/alvinz) 已经认领，待开始
 
+* [PHP Bad Code](https://github.com/AntBranch/BadCode/blob/master/php-bad-code.md)    :作者[qdsay](https://github.com/qdsay) 已经认领，待开始
 
 
 
