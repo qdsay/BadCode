@@ -148,7 +148,7 @@ MVC其实是iOS开发中最基本的模式，关于ViewController里面的tablev
 
 使用如下：
 <pre>
-	ViewController.m
+	//ViewController.m
 
     demoTableView=[[UITableView alloc] initWithFrame:CGRectMake(70, 0,ScreenWidth-70 , ScreenHeight-64-48) style:UITableViewStylePlain];
     [self.view addSubview:demoTableView];
@@ -163,9 +163,9 @@ MVC其实是iOS开发中最基本的模式，关于ViewController里面的tablev
 </pre>
 
 <pre>
-DemoDataSource.h
+//DemoDataSource.h
 
-interface DemoDataSource : NSObject<UITableViewDataSource>
+@interface DemoDataSource : NSObject<UITableViewDataSource>
 @property(nonatomic,strong)NSArray *listData;// datasource
 
 @end
